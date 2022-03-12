@@ -82,7 +82,7 @@ bash scripts/coco/ensemble_test.sh 8
 If you find this repo useful for your research, please consider citing the paper as follows:
 
 ```
-### Citation ✏️ 📄
+### Citation
 
 If you find this repo useful for your research, please consider citing the paper as follows:
 
