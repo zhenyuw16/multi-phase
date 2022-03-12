@@ -75,18 +75,18 @@ bash tools/dist_train.sh configs/multiphase/coco/faster_rcnn_r50_fpn_1x_coco_sem
 bash scripts/coco/extract_pl_phase2.sh 8 labels/rvcoco.pkl labels/rvcoco2.pkl labels/coco115k_trainval_pl_phase2.json
 bash tools/dist_train.sh configs/multiphase/coco/faster_rcnn_r50_fpn_1x_coco_semi_phase2.py 8
 bash scripts/coco/ensemble_test.sh 8
-'''
+```
 
-### Citation
+# Future features
+
+- [ ] Experiments on COCO partial (1%, 2%, 5%, 10% ratio for labeled images)
+
+
+# Citation
 
 If you find this repo useful for your research, please consider citing the paper as follows:
 
-```
-### Citation
-
-If you find this repo useful for your research, please consider citing the paper as follows:
-
-```
+```bash
 @inproceedings{wang2021data,
   title={Data-uncertainty guided multi-phase learning for semi-supervised object detection},
   author={Wang, Zhenyu and Li, Yali and Guo, Ye and Fang, Lu and Wang, Shengjin},
